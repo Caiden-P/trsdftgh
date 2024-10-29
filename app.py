@@ -4,7 +4,7 @@ from flask import Flask, render_template
 app = Flask(__name__)
 
 # Set the server name for subdomain handling
-app.config['SERVER_NAME'] = 'transcendshare.com'  # Change this to your actual domain
+app.config['SERVER_NAME'] = 'trsdftgh.onrender.com'  # Change this to your actual domain
 
 @app.route('/', defaults={'subdomain': None})
 @app.route('/', subdomain='www')  # For the main site (www.domain.com)
