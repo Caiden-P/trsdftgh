@@ -2,6 +2,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
+app.config['SERVER_NAME'] = 'https://trsdftgh.onrender.com/'
 
 @app.route("/")
 def root():
