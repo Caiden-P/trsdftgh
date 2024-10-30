@@ -2,7 +2,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
-app.config['SERVER_NAME'] = 'trsdftgh.onrender.com'
+app.config['SERVER_NAME'] = 'transcendshare.com'
 
 @app.route("/")
 def root():
